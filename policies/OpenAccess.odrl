@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "odrl": "http://www.w3.org/ns/odrl.jsonld"
+  },
+  "_comment": "No restrictions",
+  "@type": "odrl:Policy",
+  "@id": "https://fairagro.net/legalMetadata/OpenAccess",
+  "odrl:Permission": {
+    "odrl:Action": "odrl:read"
+  }
+}

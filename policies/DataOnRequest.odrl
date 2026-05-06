@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "odrl": "http://www.w3.org/ns/odrl.jsonld"
+  },
+  "_comment": "Restriction of this data set that data is only accessible upon request",
+  "@type": "odrl:Policy",
+  "@id": "https://fairagro.net/legalMetadata/DataOnRequest",
+  "odrl:Prohibition": {
+    "odrl:Action": "odrl:read"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "odrl": "http://www.w3.org/ns/odrl.jsonld",
+    "schema": "http://schema.org/"
+  },
+  "_comment": "General restriction of the RDI that only registered users receive the data",
+  "@type": "odrl:Policy",
+  "@id": "https://fairagro.net/legalMetadata/EmailRequired",
+  "odrl:Duty": {
+    "odrl:Constraint": {
+      "odrl:leftOperand": "odrl:Assignee",
+      "odrl:operator": "odrl:hasPart",
+      "odrl:rightOperand": "schema:email"
+    }
+  },
+  "odrl:Permission": {
+    "odrl:Action": "odrl:read"
+  }
+}

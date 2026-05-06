@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "odrl": "http://www.w3.org/ns/odrl.jsonld",
+    "foaf": "https://xmlns.com/foaf/0.1/"
+  },
+  "_comment": "General restriction of the RDI that only registered users receive the data",
+  "@type": "odrl:Policy",
+  "@id": "https://fairagro.net/legalMetadata/RegisterRequired",
+  "odrl:Assignee": {
+    "@type": "foaf:OnlineAccount"
+  },
+  "odrl:Permission": {
+    "odrl:Action": "odrl:read"
+  }
+}
