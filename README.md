@@ -28,5 +28,5 @@ Example:
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "Example Dataset",
-  "usageInfo": "https://example.org/policies/open-access"
+  "usageInfo": "https://github.com/fairagro/odrl_policies/tree/main/policies/OpenAccess.odrl"
 }
